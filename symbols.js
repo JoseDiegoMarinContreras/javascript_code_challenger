@@ -44,8 +44,8 @@ c.dispatch(c.dictionary.INCREASE);
 c.dispatch(c.dictionary.INCREASE);
 c.dispatch(c.dictionary.INCREASE);
 c.dispatch(c.dictionary.INCREASE);
-c.dispatch(c.dictionary.INCREASE);
-c.dispatch(c.dictionary.INCREASE);
+c.dispatch("INCREASE");
+c.dispatch("INCREASE");
 console.log(Object.prototype.toString.call(c));
 
 console.log(...c);
