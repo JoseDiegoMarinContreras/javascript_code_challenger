@@ -1,0 +1,29 @@
+{
+  "name": "javascript_code_challenger",
+  "version": "1.0.0",
+  "description": "This is repository with code challenges written in Ts",
+  "scripts": {
+    "start": "ts-node",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseDiegoMarinContreras/javascript_code_challenger.git"
+  },
+  "keywords": [
+    "Typescript",
+    "leetcode"
+  ],
+  "author": "JoseDiegoMarinContreras <diegomai1995@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseDiegoMarinContreras/javascript_code_challenger/issues"
+  },
+  "homepage": "https://github.com/JoseDiegoMarinContreras/javascript_code_challenger#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
+  }
+}
