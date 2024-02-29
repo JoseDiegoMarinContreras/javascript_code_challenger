@@ -31,18 +31,3 @@ function longestPalindrome(s: string): string {
     }
     return s.substring(start, start + size+1);
 };
-
-
-let s: string;
-
-// ccc
-s = "ccc";
-console.log(longestPalindrome(s));
-
-// bb
-s = "cbbd";
-console.log(longestPalindrome(s));
-
-// bb
-s = "abb";
-console.log(longestPalindrome(s));
