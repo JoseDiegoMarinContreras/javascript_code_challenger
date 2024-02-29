@@ -1,4 +1,4 @@
-import twoSum from '../src/01-two-sum';
+import twoSum from 'src/01-two-sum';
 
 describe("Two Sum test", () => {
     test('Input: nums = [2,7,11,15], target = 9', () => {

@@ -12,7 +12,7 @@ Example:
    - Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
 */
 
-// SOLUTIONS
+// SOLUTION
 export default function twoSum(nums: number[], target: number): number[] {
     const mapper = new Map<number, number>();
     for(let i = 0; i < nums.length; i++){
