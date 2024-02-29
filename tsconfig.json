@@ -8,7 +8,9 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "paths": {
-      "src/*": ["./src/*"]
+      "src/*": ["./src/*"],
+      "utils/*": ["./src/utils/*"],
+      "types/*": ["./src/types/*"]
     }
   }
 }
