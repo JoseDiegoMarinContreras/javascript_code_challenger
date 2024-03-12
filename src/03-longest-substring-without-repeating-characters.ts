@@ -27,7 +27,3 @@ export default function lengthOfLongestSubstring(s: string): number {
     }
     return result
 };
-
-const s = "abcabcbb";
-const result = lengthOfLongestSubstring(s);
-console.log(result);
